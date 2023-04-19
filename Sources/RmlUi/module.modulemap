@@ -1,0 +1,4 @@
+module RmlUi {
+    header "RmlUi.hpp"
+    requires cplusplus
+}

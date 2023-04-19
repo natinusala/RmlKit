@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "name": "Debug RmlKitDemo",
+            "program": "${workspaceFolder:RmlKit}/.build/debug/RmlKitDemo",
+            "args": [],
+            "cwd": "${workspaceFolder:RmlKit}",
+            "preLaunchTask": "swift: Build Debug RmlKitDemo"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "name": "Release RmlKitDemo",
+            "program": "${workspaceFolder:RmlKit}/.build/release/RmlKitDemo",
+            "args": [],
+            "cwd": "${workspaceFolder:RmlKit}",
+            "preLaunchTask": "swift: Build Release RmlKitDemo"
+        }
+    ]
+}
